@@ -1,0 +1,7 @@
+from .product_formula import TrotterFirstOrder, TrotterSecondOrder, ExactMatrixExponential
+from .extrapolation import RichardsonExtrapolation
+from .matrices import norm_mpmath, kron_mpmath, max_commutator_norm, sum_commutator_norm, commutator, Pauli
+from .matrix_generator import Random_1s_noncommuting_MatrixGenerator, Corner_1s_noncommuting_MatrixGenerator, Heisenberg_XYZ_MatrixGenerator, Heisenberg_EO_MatrixGenerator, Poisson_Decomp_MatrixGenerator
+from .extrapolation_sympy import TrotterSecondOrder_sympy, RichardsonExtrapolation_sympy, trotter_second_order, richardson_second_order_trotter
+
+from .bch_series_expansion import BCH_term, compute_extrapolation_error_term, S1, S2, SympyOperator, PauliOperator
