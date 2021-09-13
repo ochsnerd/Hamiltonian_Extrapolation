@@ -13,9 +13,9 @@ Richardson Extrapolation for Hamiltonian Simulation
 
 This is the code developed as part of my Master's thesis at ETH Zurich & IBM Research under the supervision of Almudena Carrera Vazquez, Stefan Wörner and Prof. Ralph Hiptmair.
 
-´matrix_extrapolation´ - python module; contains a framework for Hamiltonian simulation using product formulas & extrapolation, based on ´numpy´ and ´mpmath´, as well as the extrapolation error series expansion algorithm. Install it by running
-´´´
+`matrix_extrapolation` - python module; contains a framework for Hamiltonian simulation using product formulas & extrapolation, based on `numpy` and `mpmath`, as well as the extrapolation error series expansion algorithm. Install it by running
+```
 pip install path/to/this/repo
-´´´
+```
 
-´scripts´ - scripts showcasing the usage of the module. Used to create the plots for my thesis report.
+`scripts` - scripts showcasing the usage of the module. Used to create the plots for my thesis report.
